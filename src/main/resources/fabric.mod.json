@@ -1,0 +1,15 @@
+{
+  "schemaVersion": 1,
+  "id": "cheatclient",
+  "version": "${version}",
+  "name": "Cheat Client",
+  "description": "Storage ESP, Freecam, Sus Chunk Finder",
+  "environment": "client",
+  "entrypoints": { "client": ["dev.cheatclient.CheatClient"] },
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": "~1.21.1",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
